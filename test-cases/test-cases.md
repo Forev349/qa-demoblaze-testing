@@ -1,4 +1,4 @@
-##Test Case 1: Successful user registration
+#Test Case 1: Successful user registration
 
 ##Тест-кейс 1: Успешная регистрация пользователя
 
