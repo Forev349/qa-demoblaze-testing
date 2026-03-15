@@ -8,23 +8,42 @@ User does not have an account on the website.
 Предусловия:
 У пользователя нет аккаунта на сайте.
 
-Steps / Шаги:
- 1. Open Chrome DevTools (F12) / Открыть Chrome DevTools (F12)
- 2. Go to the Network tab / Перейти на вкладку Network
- 3. Perform registration on https://www.demoblaze.com / Зарегистрировать нового пользователя на сайте
- 4. Find the registration POST request in the Network tab / Найти POST-запрос регистрации
- 5. Check status code and response / Проверить код ответа и ответ сервера
+Steps:
+ 1. Open Chrome DevTools (F12)
+ 2. Go to the Network tab
+ 3. Perform registration on https://www.demoblaze.com
+ 4. Find the registration POST request in the Network tab
+ 5. Check status code and response
 
-Expected Result / Ожидаемый результат:
-Request status code is 200 and server returns success message / Код ответа 200, сервер возвращает сообщение об успешной регистрации
+Шаги:
+ 1. Открыть Chrome DevTools (F12)
+ 2. Перейти на вкладку Network
+ 3. Зарегистрировать нового пользователя на сайте
+ 4. Найти POST-запрос регистрации
+ 5. Проверить код ответа и ответ сервера
 
-Actual Result / Фактический результат:
-Request status code is 200 and server returns success message / Код ответа 200, сервер возвращает сообщение об успешной регистрации
+Expected Result:
+Request status code is 200 and server returns success message
 
-Notes / Примечания:
-Even though the UI test passed, this confirms that the backend received the registration data correctly / Даже если UI тест прошёл, это подтверждает, что бэкенд получил данные регистрации корректно
+Ожидаемый результат:
+Код ответа 200, сервер возвращает сообщение об успешной регистрации
+
+Actual Result:
+Request status code is 200 and server returns success message
+
+Результат:
+Код ответа 200, сервер возвращает сообщение об успешной регистрации
+
+Notes:
+Even though the UI test passed, this confirms that the backend received the registration data correctly
+
+Примечания:
+Даже если UI тест прошёл, это подтверждает, что бэкенд получил данные регистрации корректно
 
 ---
 
+## DevTools Test 2: Registration request
+
+## DevTools тест 2: Запрос регистрации
 
 
