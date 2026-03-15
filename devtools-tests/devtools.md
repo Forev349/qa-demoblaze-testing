@@ -21,7 +21,6 @@ Request status code is 200 and server returns success message / Код отве�
 Notes / Примечания:
 Even though the UI test passed, this confirms that the backend received the registration data correctly / Даже если UI тест прошёл, это подтверждает, что бэкенд получил данные регистрации корректно
 
-
 ---
 
 
