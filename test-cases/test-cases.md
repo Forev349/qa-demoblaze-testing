@@ -1,30 +1,29 @@
+Test Case: Successful user registration
 
-Test Case: Login with valid credentials
-
-Тест-кейс: Вход с корректными учетными данными
+Тест-кейс: Успешная регистрация пользователя
 
 Preconditions:
-User has a registered account.
+User does not have an account on the website.
 
 Предусловия:
-У пользователя есть зарегистрированный аккаунт.
+У пользователя нет аккаунта на сайте.
 
 Steps:
 1. Open https://www.demoblaze.com
-2. Click "Log in"
-3. Enter valid username
-4. Enter valid password
-5. Click "Log in"
+2. Click the "Sign up" button
+3. Enter a new username
+4. Enter a password
+5. Click the "Sign up" button
 
 Шаги:
 1. Открыть https://www.demoblaze.com
-2. Нажать кнопку "Log in"
-3. Ввести корректное имя пользователя
-4. Ввести корректный пароль
-5. Нажать кнопку "Log in"
+2. Нажать кнопку "Sign up"
+3. Ввести новое имя пользователя
+4. Ввести пароль
+5. Нажать кнопку "Sign up"
 
 Expected Result:
-User successfully logs into the account.
+The user account is successfully created and a confirmation message appears.
 
 Ожидаемый результат:
-Пользователь успешно входит в аккаунт.
+Аккаунт пользователя успешно создан и появляется сообщение о регистрации.
