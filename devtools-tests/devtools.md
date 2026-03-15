@@ -63,3 +63,21 @@ Steps:
  3. Попробовать зарегистрировать уже созданный аккаунт
  4. Найти POST-запрос регистрации
  5. Проверить код ответа и ответ сервера
+
+Expected Result:
+Response code 200, the server returns a message indicating that the user has already been created
+
+Ожидаемый результат:
+Код ответа 200, сервер возвращает сообщение о том, что пользователь уже создан
+
+Actual Result:
+Response code 200, the server returns a message indicating that the user has already been created ("his user already exist")
+
+Результат:
+Код ответа 200, сервер возвращает сообщение о том, что пользователь уже создан
+
+Notes:
+Code 200 is normal because the POST request successfully reached the server. The server correctly responded that the user already exists.
+
+Примечания:
+Код 200 — это норма, так как POST-запрос успешно дошёл до сервера, который вернул корректный ответ, что пользователь уже существует.
