@@ -44,6 +44,6 @@ Even though the UI test passed, this confirms that the backend received the regi
 
 ## DevTools Test 2: Registration with existing username
 
-## DevTools тест 2: Запрос регистрации
+## DevTools тест 2: Регистрация с уже существующим именем пользователя
 
 
