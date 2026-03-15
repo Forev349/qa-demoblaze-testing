@@ -100,6 +100,10 @@ The system shows a validation error message.
 Ожидаемый результат:
 Система показывает сообщение об ошибке валидации.
 
+Actual Result: SUCCESSFULLY
+
+Результат: УСПЕШНО
+
 ---
 
 ## Test Case 4: Login with valid credentials
