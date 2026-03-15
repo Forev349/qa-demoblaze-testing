@@ -46,4 +46,8 @@ Even though the UI test passed, this confirms that the backend received the regi
 
 ## DevTools тест 2: Регистрация с уже существующим именем пользователя
 
+Preconditions:
+User does not have an account on the website.
 
+Предусловия:
+У пользователя нет аккаунта на сайте.
