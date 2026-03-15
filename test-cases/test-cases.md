@@ -292,6 +292,8 @@ Actual Result: The product disappears from the cart, and total price is updated
 
 Результат: Товар исчезает из корзины, обновляется общая стоимость
 
+Status: OK
+
 ---
 
 ## Test Case 9: Place an order
@@ -323,5 +325,7 @@ Order confirmation appears, and order ID is generated.
 Появляется сообщение о подтверждении заказа, генерируется ID заказа.
 
 Actual Result: Order confirmation appears, and order ID is generated
+
+Status: OK
 
 Результат: Появляется сообщение о подтверждении заказа, генерируется ID заказа
