@@ -28,9 +28,9 @@ The user account is successfully created and a confirmation message appears.
 Ожидаемый результат:
 Аккаунт пользователя успешно создан и появляется сообщение о регистрации.
 
-Actual Result: SUCCESSFULLY
+Actual Result: The user has been created
 
-Результат: УСПЕШНО
+Результат: Пользователь создан
 
 ---
 
@@ -64,9 +64,9 @@ The system shows an error message that the user already exists.
 Ожидаемый результат:
 Система показывает сообщение об ошибке, что пользователь уже существует.
 
-Actual Result: SUCCESSFULLY
+Actual Result: The system shows that the user has already been created
 
-Результат: УСПЕШНО
+Результат: Система показывает, что пользователь уже создан
 
 ---
 
@@ -100,9 +100,9 @@ The system shows a validation error message.
 Ожидаемый результат:
 Система показывает сообщение об ошибке валидации.
 
-Actual Result: SUCCESSFULLY
+Actual Result: The system shows an error message
 
-Результат: УСПЕШНО
+Результат: Система показывает сообщение об ошибке
 
 ---
 
