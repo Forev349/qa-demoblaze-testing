@@ -80,4 +80,4 @@ Notes:
 Code 200 is normal because the POST request successfully reached the server. The server correctly responded that the user already exists.
 
 Примечания:
-Код 200 — это норма, так как POST-запрос успешно дошёл до сервера, который вернул корректный ответ, что пользователь уже существует.
+Код 200 это норма, так как POST-запрос успешно дошёл до сервера, который вернул корректный ответ, что пользователь уже существует.
