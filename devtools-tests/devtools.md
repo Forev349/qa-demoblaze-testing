@@ -2,8 +2,11 @@
 
 ## DevTools тест 1: Запрос регистрации
 
-Test Case / Тест-кейс: Successful user registration
-Preconditions / Предусловия: User does not have an account / У пользователя нет аккаунта
+Preconditions:
+User does not have an account on the website.
+
+Предусловия:
+У пользователя нет аккаунта на сайте.
 
 Steps / Шаги:
  1. Open Chrome DevTools (F12) / Открыть Chrome DevTools (F12)
