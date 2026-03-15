@@ -28,6 +28,10 @@ The user account is successfully created and a confirmation message appears.
 Ожидаемый результат:
 Аккаунт пользователя успешно создан и появляется сообщение о регистрации.
 
+Actual Result: SUCCESSFULLY
+
+Результат: УСПЕШНО
+
 ---
 
 ## Test Case 2: Registration with existing username
