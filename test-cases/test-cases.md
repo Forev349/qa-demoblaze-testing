@@ -1,4 +1,4 @@
-#Test Case 1: Successful user registration
+##Test Case 1: Successful user registration
 
 ##Тест-кейс 1: Успешная регистрация пользователя
 
@@ -28,7 +28,7 @@ The user account is successfully created and a confirmation message appears.
 Ожидаемый результат:
 Аккаунт пользователя успешно создан и появляется сообщение о регистрации.
 
-
+---
 
 ##Test Case 2: Registration with existing username
 
@@ -60,7 +60,7 @@ The system shows an error message that the user already exists.
 Ожидаемый результат:
 Система показывает сообщение об ошибке, что пользователь уже существует.
 
-
+---
 
 ##Test Case 3: Registration with empty fields
 
