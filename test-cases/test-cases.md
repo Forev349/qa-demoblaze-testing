@@ -32,6 +32,8 @@ Actual Result: The user has been created
 
 Результат: Пользователь создан
 
+Status: OK
+
 ---
 
 ## Test Case 2: Registration with existing username
@@ -67,6 +69,8 @@ The system shows an error message that the user already exists.
 Actual Result: The system shows that the user has already been created
 
 Результат: Система показывает, что пользователь уже создан
+
+Status: OK
 
 ---
 
@@ -104,6 +108,8 @@ Actual Result: The system shows an error message
 
 Результат: Система показывает сообщение об ошибке
 
+Status: OK
+
 ---
 
 ## Test Case 4: Login with valid credentials
@@ -136,6 +142,12 @@ User successfully logs into the account, and username appears in the top navigat
 Ожидаемый результат:
 Пользователь успешно входит в аккаунт, имя пользователя отображается в верхней панели.
 
+Actual Result: User successfully logs into the account
+
+Результат: Пользователь успешно входит в аккаунт
+
+Status: OK
+
 ---
 
 ## Test Case 5: Login with invalid password
@@ -161,6 +173,18 @@ Steps:
  3. Ввести корректное имя пользователя
  4. Ввести неправильный пароль
  5. Нажать кнопку “Log in”
+
+Expected Result:
+System displays an error message “Wrong password”.
+
+Ожидаемый результат:
+Система показывает сообщение об ошибке «Неверный пароль».
+
+Actual Result: error message “Wrong password”
+
+Результат: сообщение об ошибке «Неверный пароль»
+
+Status: OK
 
 ---
 
@@ -193,11 +217,12 @@ System shows validation error messages for empty fields.
 
 Ожидаемый результат:
 Система показывает сообщения об ошибке для пустых полей.
-Expected Result:
-System displays an error message “Wrong password”.
 
-Ожидаемый результат:
-Система показывает сообщение об ошибке «Неверный пароль».
+Actual Result: asks you to enter your name and password
+
+Результат: просит ввести имя и пароль
+
+Status: OK
 
 ---
 
@@ -224,10 +249,16 @@ Steps:
  4. Подтвердить, что товар добавлен
 
 Expected Result:
-The product appears in the cart, and a confirmation message is displayed.
+The product appears in the cart, and a confirmation message is displayed
 
 Ожидаемый результат:
-Товар отображается в корзине, появляется сообщение о добавлении.
+Товар отображается в корзине, появляется сообщение о добавлении
+
+Actual Result: The product appears in the cart, and a confirmation message is displayed
+
+Результат: Товар отображается в корзине, появляется сообщение о добавлении
+
+Status: OK
 
 ---
 
@@ -252,10 +283,14 @@ Steps:
  3. Подтвердить, что товар удалён
 
 Expected Result:
-The product disappears from the cart, and total price is updated.
+The product disappears from the cart, and total price is updated
 
 Ожидаемый результат:
-Товар исчезает из корзины, обновляется общая стоимость.
+Товар исчезает из корзины, обновляется общая стоимость
+
+Actual Result: The product disappears from the cart, and total price is updated
+
+Результат: Товар исчезает из корзины, обновляется общая стоимость
 
 ---
 
@@ -286,3 +321,7 @@ Order confirmation appears, and order ID is generated.
 
 Ожидаемый результат:
 Появляется сообщение о подтверждении заказа, генерируется ID заказа.
+
+Actual Result: Order confirmation appears, and order ID is generated
+
+Результат: Появляется сообщение о подтверждении заказа, генерируется ID заказа
