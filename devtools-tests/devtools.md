@@ -49,3 +49,17 @@ Even though the UI test passed, this confirms that the backend received the regi
 Preconditions: A user with this username already exists.
 
 Предусловия: Пользователь с таким именем уже зарегистрирован.
+
+Steps:
+ 1. Open Chrome DevTools (F12)
+ 2. Go to the Network tab
+ 3. Try to register an account that has already been created (https://www.demoblaze.com)
+ 4. Find the registration POST request in the Network tab
+ 5. Check status code and response
+
+Шаги:
+ 1. Открыть Chrome DevTools (F12)
+ 2. Перейти на вкладку Network
+ 3. Попробовать зарегистрировать уже созданный аккаунт
+ 4. Найти POST-запрос регистрации
+ 5. Проверить код ответа и ответ сервера
