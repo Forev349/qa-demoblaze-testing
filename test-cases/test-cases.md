@@ -1,6 +1,6 @@
-##Test Case 1: Successful user registration
+## Test Case 1: Successful user registration
 
-##Тест-кейс 1: Успешная регистрация пользователя
+## Тест-кейс 1: Успешная регистрация пользователя
 
 Preconditions:
 User does not have an account on the website.
@@ -30,9 +30,9 @@ The user account is successfully created and a confirmation message appears.
 
 ---
 
-##Test Case 2: Registration with existing username
+## Test Case 2: Registration with existing username
 
-##Тест-кейс 2: Регистрация с уже существующим именем пользователя
+## Тест-кейс 2: Регистрация с уже существующим именем пользователя
 
 Preconditions:
 A user with this username already exists.
@@ -62,9 +62,9 @@ The system shows an error message that the user already exists.
 
 ---
 
-##Test Case 3: Registration with empty fields
+## Test Case 3: Registration with empty fields
 
-##Тест-кейс 3: Регистрация с пустыми полями
+## Тест-кейс 3: Регистрация с пустыми полями
 
 Preconditions:
 User opens the registration form.
