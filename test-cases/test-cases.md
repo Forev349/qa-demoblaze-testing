@@ -64,6 +64,10 @@ The system shows an error message that the user already exists.
 Ожидаемый результат:
 Система показывает сообщение об ошибке, что пользователь уже существует.
 
+Actual Result: SUCCESSFULLY
+
+Результат: УСПЕШНО
+
 ---
 
 ## Test Case 3: Registration with empty fields
