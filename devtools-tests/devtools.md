@@ -275,7 +275,85 @@ The product will be added to the cart
 Товар добавится в корзину
 
 Actual Result:
-There is no response code, as validation occurs on the client side before the request is sent to the server.
+The server responded that the product was added to the cart and that a successful POST request was received (code 200)
 
 Результат:
-Код ответа отсутствует, так как валидация происходит на стороне клиента до отправки запроса на сервер.
+Сервер отправил ответ, что продукт был добавлен в корзину, а также присутствует успешный POST-запрос (код 200)
+
+---
+
+## Test Case 8: Remove product from cart
+
+## Тест-кейс 8: Удаление товара из корзины
+
+Preconditions: User has at least one product in the cart.
+
+Предусловия: В корзине есть хотя бы один товар.
+
+Steps:
+ 1. Open Chrome DevTools (F12)
+ 2. Go to the Network tab
+ 3. Remove an item from the shopping cart
+ 4. Find the DELETE request
+ 5. Check status code and response
+
+Шаги:
+ 1. Открыть Chrome DevTools (F12)
+ 2. Перейти на вкладку Network
+ 3. Убрать товар из корзины
+ 4. Найти POST-запрос
+ 5. Проверить код ответа и ответ сервера
+
+Expected Result:
+The product will be removed from the basket.
+
+Ожидаемый результат:
+Товар будет убран из корзины
+
+Actual Result:
+The following has been successfully completed:
+Code 304 GET is a cache status check for the shopping cart
+code 200 POST, sending a delete request, deletion was successfu
+code 200 POST, this is a second submission for verification
+
+Результат:
+Успешно было выполнено следующее:
+Код 304 GET, это проверка состояния корзины в кэше
+код 200 POST, отправка запроса на удаление, удаление прошло успешно
+код 200 POST, это повторная отправка для проверки
+
+---
+
+## Test Case 9: Place an order
+
+## Тест-кейс 9: Оформление заказа
+
+Preconditions: User has at least one product in the cart and is logged in.
+
+Предусловия: В корзине есть хотя бы один товар, пользователь вошёл в аккаунт.
+
+Steps:
+ 1. Open Chrome DevTools (F12)
+ 2. Go to the Network tab
+ 3. Place an order
+ 4. Find a POST request
+ 5. Check status code and response
+
+Шаги:
+ 1. Открыть Chrome DevTools (F12)
+ 2. Перейти на вкладку Network
+ 3. Сделать заказ
+ 4. Найти POST-запрос
+ 5. Проверить код ответа и ответ сервера
+
+Expected Result:
+The order will be placed
+
+Ожидаемый результат:
+Заказ будет оформлен
+
+Actual Result:
+The server responded with information about the order and a successful POST 200 request
+
+Результат:
+Пришел ответ сервера, в котором написана информация о заказе, а так же успешно отправлен запрос POST 200
