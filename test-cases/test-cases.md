@@ -95,10 +95,10 @@ Steps:
  5. Нажать кнопку “Sign up”
 
 Expected Result:
-The system shows a validation error message.
+System should display validation messages for required fields. Account should not be created.
 
 Ожидаемый результат:
-Система показывает сообщение об ошибке валидации.
+Система должна отображать сообщения об ошибке проверки для обязательных полей. Создание учетной записи не требуется.
 
 Actual Result: The system shows an error message
 
