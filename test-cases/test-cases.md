@@ -101,9 +101,9 @@ System should display validation messages for required fields. Account should no
 Ожидаемый результат:
 Система должна отображать сообщения об ошибке проверки для обязательных полей. Учетная запись не должна быть создана
 
-Actual Result: The system shows an error message
+Actual Result: System displays a validation error message for empty required fields.
 
-Результат: Система показывает сообщение об ошибке
+Результат: Система выводит сообщение об ошибке проверки для пустых обязательных полей.
 
 ---
 
