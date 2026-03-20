@@ -201,7 +201,7 @@ Steps:
 Expected Result: System should display an error message “Wrong password”.
 
 Ожидаемый результат:
-Система показывает сообщение об ошибке «Неверный пароль», но будет код 200(POST), так как информация должна дойти до сервера
+Ожидаемый результат: Система должна отображать сообщение об ошибке «Неверный пароль».
 
 Actual Result:
 Response code 200(POST), error message "Wrong password"
@@ -231,11 +231,11 @@ Steps:
 3. Оставьте поля пустыми
 4. Нажмите «Войти»
 
-Expected Result:
-The system shows an error message
+Expected Result: 
+System should display validation messages for required fields and no request should be sent to the server.
 
-Ожидаемый результат:
-Система показывает сообщение об ошибке
+Ожидаемый результат: 
+Система должна отображать сообщения об ошибке для обязательных полей, запрос на сервер не должен отправляться.
 
 Actual Result:
 There is no response code, as validation occurs on the client side before the request is sent to the server.
@@ -338,10 +338,10 @@ Steps:
  5. Проверить код ответа и ответ сервера
 
 Expected Result:
-System should add the product to the cart and return status code 200.
+Expected Result: System should successfully place the order and return status code 200.
 
 Ожидаемый результат:
-Заказ будет оформлен
+Система должна успешно оформить заказ и вернуть код ответа 200.
 
 Actual Result:
 The server responded with information about the order and a successful POST 200 request
