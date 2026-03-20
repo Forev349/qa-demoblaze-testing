@@ -32,8 +32,6 @@ Actual Result: The user has been created
 
 Результат: Пользователь создан
 
-Status: OK
-
 ---
 
 ## Test Case 2: Registration with existing username
@@ -69,8 +67,6 @@ The system shows an error message that the user already exists.
 Actual Result: The system shows that the user has already been created
 
 Результат: Система показывает, что пользователь уже создан
-
-Status: OK
 
 ---
 
@@ -108,8 +104,6 @@ Actual Result: The system shows an error message
 
 Результат: Система показывает сообщение об ошибке
 
-Status: OK
-
 ---
 
 ## Test Case 4: Login with valid credentials
@@ -145,8 +139,6 @@ User successfully logs into the account, and username appears in the top navigat
 Actual Result: User successfully logs into the account
 
 Результат: Пользователь успешно входит в аккаунт
-
-Status: OK
 
 ---
 
@@ -184,8 +176,6 @@ Actual Result: error message “Wrong password”
 
 Результат: сообщение об ошибке «Неверный пароль»
 
-Status: OK
-
 ---
 
 ## Test Case 6: Login with empty fields
@@ -222,8 +212,6 @@ Actual Result: asks you to enter your name and password
 
 Результат: просит ввести имя и пароль
 
-Status: OK
-
 ---
 
 ## Test Case 7: Add product to cart
@@ -258,8 +246,6 @@ Actual Result: The product appears in the cart, and a confirmation message is di
 
 Результат: Товар отображается в корзине, появляется сообщение о добавлении
 
-Status: OK
-
 ---
 
 ## Test Case 8: Remove product from cart
@@ -292,8 +278,6 @@ Actual Result: The product disappears from the cart, and total price is updated
 
 Результат: Товар исчезает из корзины, обновляется общая стоимость
 
-Status: OK
-
 ---
 
 ## Test Case 9: Place an order
@@ -325,7 +309,5 @@ Order confirmation appears, and order ID is generated.
 Появляется сообщение о подтверждении заказа, генерируется ID заказа.
 
 Actual Result: Order confirmation appears, and order ID is generated
-
-Status: OK
 
 Результат: Появляется сообщение о подтверждении заказа, генерируется ID заказа
