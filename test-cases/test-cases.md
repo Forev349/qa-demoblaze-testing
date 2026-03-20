@@ -170,7 +170,7 @@ Expected Result:
 System should display an error message “Wrong password”.
 
 Ожидаемый результат:
-Система показывает сообщение об ошибке «Неверный пароль».
+Система дожна показывать сообщение об ошибке «Неверный пароль».
 
 Actual Result: System displays an error message “Wrong password”.
 
