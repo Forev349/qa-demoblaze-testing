@@ -3,10 +3,10 @@
 ## БАГ-РЕПОРТ 3: Регистрация с пустыми полями
 
 Tiile: 
-Sign up allows submission with empty fields
+Sign up shows incorrect validation message for empty fields
 
 Загалавие: 
-Регистрация позволяет отправлять данные, даже если поля пустые.
+При регистрации отображается сообщение об ошибке проверки для пустых полей.
 
 Environment: 
 Windows 10, Yandex Browser (latest)
