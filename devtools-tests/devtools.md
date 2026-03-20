@@ -93,18 +93,18 @@ Preconditions: User opens the registration form.
 Предусловия: Пользователь открыл форму регистрации.
 
 Steps:
- 1. Open Chrome DevTools (F12)
- 2. Go to the Network tab
- 3. Try to register an account that has already been created (https://www.demoblaze.com)
- 4. Find the registration POST request in the Network tab
- 5. Check status code and response
+1. Open https://www.demoblaze.com
+2. Click “Sign up”
+3. Leave username field empty
+4. Leave password field empty
+5. Click “Sign up”
 
 Шаги:
- 1. Открыть Chrome DevTools (F12)
- 2. Перейти на вкладку Network
- 3. Попробовать зарегистрировать уже созданный аккаунт
- 4. Найти POST-запрос регистрации
- 5. Проверить код ответа и ответ сервера
+1. Откройте https://www.demoblaze.com
+2. Нажмите «Зарегистрироваться»
+3. Оставьте поле «Имя пользователя» пустым
+4. Оставьте поле «Пароль» пустым
+5. Нажмите «Зарегистрироваться»
 
 Expected Result:
 The server returns a message requiring input data
