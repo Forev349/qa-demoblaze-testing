@@ -172,9 +172,9 @@ System displays an error message “Wrong password”.
 Ожидаемый результат:
 Система показывает сообщение об ошибке «Неверный пароль».
 
-Actual Result: System should display an authentication error message (e.g., “Wrong password”).
+Actual Result: System displays an error message “Wrong password”.
 
-Результат: Система должна отобразить сообщение об ошибке аутентификации (например, «Неверный пароль»).
+Результат: Система отображает сообщение об ошибке «Неверный пароль».
 
 ---
 
@@ -208,9 +208,9 @@ System shows validation error messages for empty fields.
 Ожидаемый результат:
 Система показывает сообщения об ошибке для пустых полей.
 
-Actual Result: System should display validation messages for required fields.
+Actual Result: System displays validation messages for required fields.
 
-Результат: Система должна отображать сообщения об ошибке проверки для обязательных полей.
+Результат: Система отображает сообщения об ошибке для обязательных полей.
 
 ---
 
