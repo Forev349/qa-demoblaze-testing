@@ -28,9 +28,10 @@ System should successfully create a new user account and show success message.
 Ожидаемый результат:
 Система должна успешно создать новую учетную запись пользователя и отобразить сообщение об успешном завершении.
 
-Actual Result: User is created
+Actual Result: System displays a successful registration message and the user account is created.
 
-Результат: Пользователь создан
+
+Результат: Система выводит сообщение об успешной регистрации, и учетная запись пользователя создается.
 
 ---
 
