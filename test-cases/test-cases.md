@@ -167,7 +167,7 @@ Steps:
  5. Нажать кнопку “Log in”
 
 Expected Result:
-System displays an error message “Wrong password”.
+System should display an error message “Wrong password”.
 
 Ожидаемый результат:
 Система показывает сообщение об ошибке «Неверный пароль».
