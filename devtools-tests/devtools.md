@@ -108,17 +108,17 @@ Steps:
 
 Expected Result:
 System should display validation message for required fields.
-Registration request should NOT be sent to the server.
+No request should be sent to the server.
 
 Ожидаемый результат:
-Система должна показать сообщение о необходимости заполнить обязательные поля.
-Запрос на сервер НЕ должен отправляться.
+Система должна отображать сообщение об ошибке проверки для обязательных полей.
+Запросы на сервер отправляться не должны.
 
 Actual Result:
-The server returns a message asking for Username and Password
+Validation message is displayed and no network request is sent.
 
 Результат:
-сервер возвращает сообщение о требовании ввода Username и Password
+Отображается сообщение об ошибке проверки, и сетевой запрос не отправляется.
 
 Notes:
 Form validation is handled on the client side before sending any network request.
