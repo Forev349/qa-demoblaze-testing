@@ -172,9 +172,9 @@ System displays an error message “Wrong password”.
 Ожидаемый результат:
 Система показывает сообщение об ошибке «Неверный пароль».
 
-Actual Result: error message “Wrong password”
+Actual Result: System should display an authentication error message (e.g., “Wrong password”).
 
-Результат: сообщение об ошибке «Неверный пароль»
+Результат: Система должна отобразить сообщение об ошибке аутентификации (например, «Неверный пароль»).
 
 ---
 
