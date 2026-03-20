@@ -201,7 +201,7 @@ Steps:
 Expected Result: System should display an error message “Wrong password”.
 
 Ожидаемый результат:
-Ожидаемый результат: Система должна отображать сообщение об ошибке «Неверный пароль».
+Система должна отображать сообщение об ошибке «Неверный пароль».
 
 Actual Result:
 Response code 200(POST), error message "Wrong password"
@@ -338,7 +338,7 @@ Steps:
  5. Проверить код ответа и ответ сервера
 
 Expected Result:
-Expected Result: System should successfully place the order and return status code 200.
+System should successfully place the order and return status code 200.
 
 Ожидаемый результат:
 Система должна успешно оформить заказ и вернуть код ответа 200.
