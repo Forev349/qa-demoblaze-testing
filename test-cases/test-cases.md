@@ -269,10 +269,10 @@ Steps:
  3. Подтвердить, что товар удалён
 
 Expected Result:
-The product disappears from the cart, and total price is updated
+The product should be removed from the cart, and total price should be updated.
 
 Ожидаемый результат:
-Товар исчезает из корзины, обновляется общая стоимость
+Товар должен убраться из корзины, а стоимость должна обновиться
 
 Actual Result: The product disappears from the cart, and total price is updated
 
