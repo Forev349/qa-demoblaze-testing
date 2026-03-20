@@ -2,11 +2,17 @@
 
 ## БАГ-РЕПОРТ 3: Регистрация с пустыми полями
 
-Tiile: Registration with empty fields
-Загалвие: Регистрация с пустыми полями
+Tiile: 
+Sign up allows submission with empty fields
 
-Environment: WIN 10, Yandex
-Окружение: WNI 10, Яндекс
+Загалавие: 
+Регистрация позволяет отправлять данные, даже если поля пустые.
+
+Environment: 
+Windows 10, Yandex Browser (latest)
+
+Окружение:
+WINDOWS 10, Яндекс
 
 Steps to reproduce:
 1. Open https://www.demoblaze.com
@@ -22,15 +28,22 @@ Steps to reproduce:
 4. Оставить поле password пустым
 5. Нажать кнопку “Sign up”
 
-Expected result:The system shows a validation error message.
+Expected result:
+The system shows a validation error message.
 
-Ожидаемый результат:Система показывает сообщение об ошибке валидации
+Ожидаемый результат:
+Система показывает сообщение об ошибке валидации
 
-Actual result:The system shows an error message
-Актуальный результат:Система показывает сообщение об ошибке
+Actual result:
+System displays a generic error message instead of validation messages for required fields
 
-Severity:Not critical
-Строгость: Не критично
+Актуальный результат:
+Вместо сообщений об ошибке проверки обязательных полей система отображает общее сообщение об ошибке.
 
-Priority:
-Приоритет: 
+Severity: high
+
+Строгость: Высокая
+
+Priority: High
+
+Приоритет: Высокий
