@@ -303,7 +303,7 @@ Steps:
  4. Нажать “Purchase”
 
 Expected Result:
-Order confirmation appears, and order ID is generated.
+Order confirmation should appear, and order ID should be generated.
 
 Ожидаемый результат:
 Появляется сообщение о подтверждении заказа, генерируется ID заказа.
