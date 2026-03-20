@@ -198,8 +198,7 @@ Steps:
  4. Найти POST-запрос входа
  5. Проверить код ответа и ответ сервера
 
-Expected Result:
-The system displays an error message saying "Invalid password", but there will be a 200(POST) code, as the information must reach the server
+Expected Result: System should display an error message “Wrong password”.
 
 Ожидаемый результат:
 Система показывает сообщение об ошибке «Неверный пароль», но будет код 200(POST), так как информация должна дойти до сервера
@@ -221,18 +220,16 @@ Preconditions: User opens the login form on DemoBlaze.
 Предусловия: Пользователь открыл форму входа на DemoBlaze.
 
 Steps:
- 1. Open Chrome DevTools (F12)
- 2. Go to the Network tab
- 3. Try logging in to your account (https://www.demoblaze.com)
- 4. Find the Login POST request
- 5. Check status code and response
+1 Open https://www.demoblaze.com
+2 Click “Log in”
+3 Leave fields empty
+4 Click “Log in”
 
 Шаги:
- 1. Открыть Chrome DevTools (F12)
- 2. Перейти на вкладку Network
- 3. Попробовать войти в аккаунт
- 4. Найти POST-запрос входа
- 5. Проверить код ответа и ответ сервера
+1. Откройте https://www.demoblaze.com
+2. Нажмите «Войти»
+3. Оставьте поля пустыми
+4. Нажмите «Войти»
 
 Expected Result:
 The system shows an error message
@@ -271,7 +268,7 @@ Steps:
  5. Проверить код ответа и ответ сервера
 
 Expected Result:
-The product will be added to the cart
+System should add the product to the cart and return status code 200.
 
 Ожидаемый результат:
 Товар добавится в корзину
@@ -303,7 +300,7 @@ Steps:
  1. Открыть Chrome DevTools (F12)
  2. Перейти на вкладку Network
  3. Убрать товар из корзины
- 4. Найти POST-запрос
+ 4. Найти DELETE-запрос
  5. Проверить код ответа и ответ сервера
 
 Expected Result:
@@ -312,17 +309,9 @@ The product will be removed from the basket.
 Ожидаемый результат:
 Товар будет убран из корзины
 
-Actual Result:
-The following has been successfully completed:
-Code 304 GET is a cache status check for the shopping cart
-code 200 POST, sending a delete request, deletion was successfu
-code 200 POST, this is a second submission for verification
+Actual Result: Product was successfully removed from the cart. Server returned status code 200.
 
-Результат:
-Успешно было выполнено следующее:
-Код 304 GET, это проверка состояния корзины в кэше
-код 200 POST, отправка запроса на удаление, удаление прошло успешно
-код 200 POST, это повторная отправка для проверки
+Результат: Товар успешно удалён из корзины, сервер вернул код 200.
 
 ---
 
@@ -349,7 +338,7 @@ Steps:
  5. Проверить код ответа и ответ сервера
 
 Expected Result:
-The order will be placed
+System should add the product to the cart and return status code 200.
 
 Ожидаемый результат:
 Заказ будет оформлен
