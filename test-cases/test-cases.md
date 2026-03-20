@@ -312,3 +312,43 @@ Order confirmation should appear, and order ID should be generated.
 Actual Result: Order confirmation appears, and order ID is generated
 
 Результат: Появляется сообщение о подтверждении заказа, генерируется ID заказа
+
+---
+
+## Test Case 10: 
+Login with SQL injection
+
+## Тестовый пример 10:
+Вход в систему с помощью SQL-инъекции
+
+Preconditions: 
+User is on login page
+
+Предварительные условия: 
+Пользователь находится на странице входа в систему
+
+Steps:
+1. Open https://www.demoblaze.com
+2. Click "Log in"
+3. Enter username:' OR 1=1 --
+4. Enter password: 123
+5. Click "Log in"
+
+Шаги:
+1. Откройте https://www.demoblaze.com
+2. Нажмите "Войти"
+3. Введите имя пользователя:' ИЛИ 1=1 --
+4. Введите пароль: 123
+5. Нажмите "Войти"
+
+Expected Result:
+System should not allow login and should display an error message
+
+ожидаемый результат:
+Система не должна разрешать вход в систему и должна отображать сообщение об ошибке
+
+Actual Result: 
+System displays an error message “Wrong password”.
+
+Результат:
+Система выдает сообщение об ошибке “Неверный пароль”.
