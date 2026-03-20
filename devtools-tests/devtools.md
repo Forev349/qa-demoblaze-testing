@@ -107,10 +107,12 @@ Steps:
 5. Нажмите «Зарегистрироваться»
 
 Expected Result:
-The server returns a message requiring input data
+System should display validation message for required fields.
+Registration request should NOT be sent to the server.
 
 Ожидаемый результат:
-Сервер возвращает сообщение о требовании ввода данных
+Система должна показать сообщение о необходимости заполнить обязательные поля.
+Запрос на сервер НЕ должен отправляться.
 
 Actual Result:
 The server returns a message asking for Username and Password
@@ -119,10 +121,10 @@ The server returns a message asking for Username and Password
 сервер возвращает сообщение о требовании ввода Username и Password
 
 Notes:
-There is no response code, as validation occurs on the client side before the request is sent to the server.
+Form validation is handled on the client side before sending any network request.
 
 Примечания:
-Код ответа отсутствует, так как валидация происходит на стороне клиента до отправки запроса на сервер.
+Проверка формы выполняется на стороне клиента перед отправкой любого сетевого запроса.
 
 ---
 
