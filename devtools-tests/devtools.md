@@ -270,8 +270,7 @@ Steps:
 Expected Result:
 System should add the product to the cart and return status code 200.
 
-Ожидаемый результат:
-Товар добавится в корзину
+Ожидаемый результат: Система должна добавить товар в корзину и вернуть код ответа 200.
 
 Actual Result:
 The server responded that the product was added to the cart and that a successful POST request was received (code 200)
