@@ -1,13 +1,63 @@
-# QA Testing Project
+# QA Testing Project / QA Проект по тестированию
 
-Website tested: DemoBlaze
+## Project Overview / Описание проекта
+This project contains manual QA testing of the DemoBlaze website.  
+Цель проекта — ручное тестирование сайта DemoBlaze.
 
-## Scope of testing  ->  область тестирования
-- UI testing  ->  интерфейс сайта (кнопки, формы, страницы)
-- Test cases  ->  тест-кейсы для функций сайта
-- Bug reports  ->  описание и нахождение багов
-- DevTools checks  ->  проверка сайта через DevTools (API, ошибки, Network)
+The goal is to practice creating test documentation and identifying potential issues in a web application.  
+Цель — практика создания тестовой документации и поиск возможных проблем в веб-приложении.
 
-## Tools used  ->  использованные инструменты
-- Chrome DevTools
-- GitHub
+---
+
+## Tested Application / Тестируемое приложение
+Website / Сайт: https://www.demoblaze.com
+
+---
+
+## Scope of Testing / Область тестирования
+
+- UI Testing (buttons, forms, pages)  
+  UI тестирование (кнопки, формы, страницы)
+
+- Functional Testing (registration, login, cart, order)  
+  Функциональное тестирование (регистрация, вход, корзина, заказ)
+
+- Basic API checks via DevTools (Network tab)  
+  Базовая проверка API через DevTools (вкладка Network)
+
+- Test case design  
+  Написание тест-кейсов
+
+- Bug reporting practice  
+  Практика написания баг-репортов
+
+---
+
+## Tools Used / Используемые инструменты
+
+- Google Chrome / Yandex Browser  
+- Chrome DevTools  
+- GitHub  
+
+---
+
+## What was done / Что было сделано
+
+- Created test cases for main user flows  
+  Созданы тест-кейсы для основных сценариев пользователя
+
+- Simulated positive and negative scenarios  
+  Смоделированы позитивные и негативные сценарии
+
+- Practiced writing bug reports  
+  Практика написания баг-репортов
+
+- Verified application behavior using DevTools  
+  Проверка поведения приложения через DevTools
+
+---
+
+## Conclusion / Вывод
+
+This project demonstrates basic QA skills including test case design, functional testing, and bug reporting.  
+Проект демонстрирует базовые навыки QA: написание тест-кейсов, функциональное тестирование и баг-репорты.
