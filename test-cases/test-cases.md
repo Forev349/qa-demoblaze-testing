@@ -131,10 +131,10 @@ Steps:
  5. Нажать кнопку “Log in”
 
 Expected Result:
-User successfully logs into the account, and username appears in the top navigation panel.
+System should successfully log in the user and display the username in the top navigation panel.
 
 Ожидаемый результат:
-Пользователь успешно входит в аккаунт, имя пользователя отображается в верхней панели.
+Система должна успешно авторизовать пользователя и отобразить имя пользователя в верхней панели.
 
 Actual Result: User successfully logs into the account
 
@@ -237,10 +237,10 @@ Steps:
  4. Подтвердить, что товар добавлен
 
 Expected Result:
-The product appears in the cart, and a confirmation message is displayed
+The product should appear in the cart, and a confirmation message should be displayed.
 
 Ожидаемый результат:
-Товар отображается в корзине, появляется сообщение о добавлении
+Товар должен появиться в корзине, и должно отобразиться сообщение с подтверждением.
 
 Actual Result: The product appears in the cart, and a confirmation message is displayed
 
