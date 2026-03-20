@@ -208,9 +208,9 @@ System shows validation error messages for empty fields.
 Ожидаемый результат:
 Система показывает сообщения об ошибке для пустых полей.
 
-Actual Result: asks you to enter your name and password
+Actual Result: System should display validation messages for required fields.
 
-Результат: просит ввести имя и пароль
+Результат: Система должна отображать сообщения об ошибке проверки для обязательных полей.
 
 ---
 
