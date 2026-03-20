@@ -23,12 +23,12 @@ Steps:
 5. Нажать кнопку "Sign up"
 
 Expected Result:
-The user account is successfully created and a confirmation message appears.
+System should successfully create a new user account and show success message.
 
 Ожидаемый результат:
-Аккаунт пользователя успешно создан и появляется сообщение о регистрации.
+Система должна успешно создать новую учетную запись пользователя и отобразить сообщение об успешном завершении.
 
-Actual Result: The user has been created
+Actual Result: User is created
 
 Результат: Пользователь создан
 
@@ -59,14 +59,14 @@ Steps:
  5. Нажать кнопку “Sign up”
 
 Expected Result:
-The system shows an error message that the user already exists.
+System should show an error message indicating that the username already exists.
 
 Ожидаемый результат:
-Система показывает сообщение об ошибке, что пользователь уже существует.
+Система должна отобразить сообщение об ошибке, указывающее на то, что имя пользователя уже существует.
 
-Actual Result: The system shows that the user has already been created
+Actual Result: User already exists message is displayed
 
-Результат: Система показывает, что пользователь уже создан
+Результат: Отображается сообщение "Пользователь уже существует".
 
 ---
 
