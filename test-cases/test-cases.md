@@ -98,7 +98,7 @@ Expected Result:
 System should display validation messages for required fields. Account should not be created.
 
 Ожидаемый результат:
-Система должна отображать сообщения об ошибке проверки для обязательных полей. Создание учетной записи не требуется.
+Система должна отображать сообщения об ошибке проверки для обязательных полей. Учетная запись не должна быть создана
 
 Actual Result: The system shows an error message
 
