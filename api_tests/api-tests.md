@@ -11,8 +11,8 @@ Body:
 {"username":"Gordey003","password":"hash"}
 
 Expected Result:
-Successful registration
-Status code: 200
+1. Successful account login
+2. Status code: 200
 
 Actual Result:
 The user has successfully logged into the account
@@ -32,7 +32,8 @@ Body:
 {"username":"testuser","password":"123"}
 
 Expected Result:
-User is NOT authenticated
+1. Status code 200
+2. User is NOT authenticated
 
 Actul Result:
 1. Status code: 200
@@ -56,8 +57,8 @@ Body:
 }
 
 Expected Result:
-1. User is NOT authenticated
-2. Status code: 200
+1. Status code: 200
+2. User is NOT authenticated
 
 Actual Result:
 1. Status code: 200
@@ -78,8 +79,9 @@ Body:
 {"username":"","password":"123"}
 
 Expected Result:
-Status code: 400 - validation error
-User is NOT authenticated
+1. Status code: 400 - validation error
+2. User is NOT authenticated
+3. The server should not break down
 
 Actul Result:
 1. Status code: 500
