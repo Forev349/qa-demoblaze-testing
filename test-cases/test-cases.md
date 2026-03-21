@@ -337,7 +337,7 @@ Steps:
 Шаги:
 1. Откройте https://www.demoblaze.com
 2. Нажмите "Войти"
-3. Введите имя пользователя:' ИЛИ 1=1 --
+3. Введите имя пользователя:' OR 1=1 --
 4. Введите пароль: 123
 5. Нажмите "Войти"
 
@@ -352,3 +352,123 @@ System displays an error message “Wrong password”.
 
 Результат:
 Система выдает сообщение об ошибке “Неверный пароль”.
+
+---
+
+## Test Case 11: 
+XSS atack
+
+## Тестовый пример 11:
+XSS atack
+
+Preconditions: 
+User is on login page
+
+Предварительные условия: 
+Пользователь находится на странице входа в систему
+
+Steps:
+1. Open https://www.demoblaze.com
+2. Click Log in/Login
+3. Enter username:<script>alert(1)</script>
+4. Enter password: 123
+5. Click "Log in"
+
+Шаги:
+1. Откройте https://www.demoblaze.com
+2. Нажмите Войти/Регистрация
+3. Введите имя пользователя:<script>alert(1)</script>
+4. Введите пароль: 123
+5. Нажмите "Войти"
+
+Expected Result:
+System should not allow login and should display an error message
+
+ожидаемый результат:
+Система не должна разрешать вход в систему и должна отображать сообщение об ошибке
+
+Actual Result: 
+System displays an error message “Wrong password”.
+
+Результат:
+Система выдает сообщение об ошибке “Неверный пароль”.
+
+---
+
+## Test Case 12: 
+Special characters
+
+## Тестовый пример 12:
+Специальные символы
+
+Preconditions: 
+The user is on the registration page
+
+Предварительные условия: 
+Пользователь находится на странице регистрации
+
+Steps:
+1. Open https://www.demoblaze.com
+2. Click Sign up
+3. Enter username:!"№;%:?*()
+4. Enter password: 123
+5. Click "Sign up"
+
+Шаги:
+1. Откройте https://www.demoblaze.com
+2. Нажмите Регистрация
+3. Введите имя пользователя:!"№;%:?*()
+4. Введите пароль: 123
+5. Нажмите "Регистрация"
+
+Expected Result:
+The system should not allow the registration of a user with this name
+
+ожидаемый результат:
+Система не должна дать разрешения на регистрацию пользователя с таким именем
+
+Actual Result: 
+The system displays a message that a user with that name already exists
+
+Результат:
+Система выдает сообщение, что пользователь с таким именем уже есть
+
+---
+
+## Test Case 13: 
+Edge case
+
+## Тестовый пример 13:
+Edge case
+
+Preconditions: 
+The user is on the registration page
+
+Предварительные условия: 
+Пользователь находится на странице регистрации
+
+Steps:
+1. Open https://www.demoblaze.com
+2. Click Sign up
+3. Enter username: wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+4. Enter password: 123
+5. Click "Sign up"
+
+Шаги:
+1. Откройте https://www.demoblaze.com
+2. Нажмите Регистрация
+3. Введите имя пользователя:wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+4. Введите пароль: 123
+5. Нажмите "Регистрация"
+
+Expected Result:
+The system should not allow the registration of a user with this name
+
+ожидаемый результат:
+Система не должна дать разрешения на регистрацию пользователя с таким именем
+
+Actual Result: 
+The system has granted permission to register a user with this name. The registration was successful
+
+Результат:
+Система дала разрешения на регистрацию пользователя с таким именем. Регистрация прошла успешно
