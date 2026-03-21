@@ -1,0 +1,36 @@
+## API Test 1:
+Login
+
+## API Тест 1:
+Вход
+
+Method:
+Post
+
+Метод:
+Post
+
+URL: https://api.demoblaze.com/login
+
+Body:
+{
+"username": "testuser",
+"password": "hash"
+}
+
+Expected Result:
+System should return an error message for invalid credentials.
+Status code should be 200
+
+ожидаемый результат:
+Система должна вернуть сообщение об ошибке из-за неверных учетных данных.
+Статус код должен быть 200
+
+Actual result:
+Status code 200, system returns "Wrong password"
+
+Результат: 
+Код состояния 200, система возвращает сообщение "Неверный пароль".
+
+---
+
