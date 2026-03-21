@@ -113,9 +113,8 @@ Expected Result:
 3. Response body: "Wrong password."
 
 Actul Result:
-1. In POSTMAN:
-Response body: "Wrong password."
-Status code: 200
+1. Response body: "Wrong password."
+2. Status code: 200
 
 ---
 
