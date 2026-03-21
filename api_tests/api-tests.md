@@ -5,13 +5,14 @@ Method:
 POST
 
 URL:
-https://api.demoblaze.com/signup
+https://api.demoblaze.com/login
 
 Body:
 {"username":"Gordey003","password":"hash"}
 
 Expected Result:
-The user will be registered
+the user will successfully log in to the account
+Status code: 200
 
 Actual Result:
 The user has successfully logged into the account
@@ -80,7 +81,7 @@ Body:
 {"username":"","password":"123"}
 
 Expected Result:
-Status code: 400
+Status code: 400 - validation error
 User is NOT authenticated
 
 Actul Result:
