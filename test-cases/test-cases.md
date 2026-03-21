@@ -382,10 +382,10 @@ Steps:
 5. Нажмите "Войти"
 
 Expected Result:
-System should not allow login and should display an error message
+System should sanitize input and not execute JavaScript code. Input should be displayed as plain text
 
 ожидаемый результат:
-Система не должна разрешать вход в систему и должна отображать сообщение об ошибке
+Система должна обрабатывать вводимые данные, а не выполнять код JavaScript. Вводимые данные должны отображаться в виде обычного текста
 
 Actual Result: 
 System displays an error message “Wrong password”.
@@ -422,16 +422,16 @@ Steps:
 5. Нажмите "Регистрация"
 
 Expected Result:
-The system should not allow the registration of a user with this name
+System should validate input and reject invalid characters in username
 
 ожидаемый результат:
-Система не должна дать разрешения на регистрацию пользователя с таким именем
+Система должна проверять правильность ввода и отклонять недопустимые символы в имени пользователя
 
 Actual Result: 
-The system displays a message that a user with that name already exists
+System does not validate input properly and returns unrelated message
 
 Результат:
-Система выдает сообщение, что пользователь с таким именем уже есть
+Система неправильно проверяет вводимые данные и возвращает несвязанное сообщение
 
 ---
 
@@ -462,10 +462,10 @@ Steps:
 5. Нажмите "Регистрация"
 
 Expected Result:
-The system should not allow the registration of a user with this name
+System should enforce maximum length validayion for username and display an error message
 
 ожидаемый результат:
-Система не должна дать разрешения на регистрацию пользователя с таким именем
+Система должна ввести проверку максимальной длины имени пользователя и отобразить сообщение об ошибке
 
 Actual Result: 
 The system has granted permission to register a user with this name. The registration was successful
