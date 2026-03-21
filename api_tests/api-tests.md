@@ -8,20 +8,22 @@ URL: https://api.demoblaze.com/login
 Body:{"username":"testuser","password":"hash"}
 
 Expected Result:
-Status code 200. User is authenticated succesfully
+User in not authenticated
+Response contains "Wrong password"
 
 Ожидаемый результат:
-Код состояния 200. Пользователь успешно прошел аутентификацию
+Пользователь не прошел проверку подлинности
+В ответе содержится сообщение "Неверный пароль"
 
 Actul Result:
 Status code: 200
-The user is not logged in because the password is incorrect
-The server returned a correct response of "Wrong password"
+Response body: "Wrong password"
+Response returned successfully
 
 Результат проверки:
 Код состояния: 200
 Пользователь не вошел в систему, так как пароль не правильный
-Сервер вернул корректный ответ "Wrong password"
+Ответ возвращен успешно
 
 Notes:
 Request was tested using Postman
