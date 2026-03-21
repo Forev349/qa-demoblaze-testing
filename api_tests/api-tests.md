@@ -1,11 +1,14 @@
 ## API Test 1:
 User Login
 
-Method: POST
+Method:
+POST
 
-URL: https://api.demoblaze.com/login
+URL: 
+https://api.demoblaze.com/login
 
-Body:{"username":"testuser","password":"hash"}
+Body:
+{"username":"testuser","password":"hash"}
 
 Expected Result:
 User in not authenticated
