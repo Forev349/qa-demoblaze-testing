@@ -11,8 +11,8 @@ Body:
 {"username":"Gordey003","password":"hash"}
 
 Expected Result:
-1. Successful account login
-2. Status code: 200
+1. Status code: 200 OK
+1. Logged in to the account
 
 Actual Result:
 The user has successfully logged into the account
@@ -32,11 +32,11 @@ Body:
 {"username":"testuser","password":"123"}
 
 Expected Result:
-1. Status code 200
+1. Status code 200 OK
 2. User is NOT authenticated
 
 Actul Result:
-1. Status code: 200
+1. Status code: 200 OK
 2. Response body: "Wrong password"
 
 ---
@@ -57,11 +57,11 @@ Body:
 }
 
 Expected Result:
-1. Status code: 200
+1. Status code: 200 OK
 2. User is NOT authenticated
 
 Actual Result:
-1. Status code: 200
+1. Status code: 200 OK
 2. Response body: "User does not exist."
 
 ---
@@ -79,12 +79,12 @@ Body:
 {"username":"","password":"123"}
 
 Expected Result:
-1. Status code: 400 - validation error
+1. Status code: 400 Bad Request - validation error
 2. User is NOT authenticated
 3. The server should not break down
 
 Actul Result:
-1. Status code: 500
+1. Status code: 500 Internal Server Error
 2. Response body: "Please fill out Username and Password"
 
 Title:
