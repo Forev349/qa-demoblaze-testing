@@ -11,7 +11,7 @@ Body:
 {"username":"testuser","password":"hash"}
 
 Expected Result:
-1. User in not authenticated
+1. User is NOT authenticated
 2. Response contains "Wrong password"
 
 Ожидаемый результат:
@@ -21,17 +21,13 @@ Expected Result:
 Actul Result:
 1. Status code: 200
 2. Response body: "Wrong password"
-3. Response returned successfully
 
 Результат проверки:
 1. Код состояния: 200
-2. Пользователь не вошел в систему, так как пароль не правильный
-3. Ответ возвращен успешно
+2. Текст ответа: "Неверный пароль"
 
 Notes:
-1. Request was tested using Postman
-2. Backend correctly processes authentication request
+Request was tested using Postman
 
 Записи:
-1. Запрос был протестирован с помощью Postman
-2. Серверная часть корректно обрабатывает запрос на аутентификацию
+Запрос был протестирован с помощью Postman
