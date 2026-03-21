@@ -11,14 +11,11 @@ Body:
 {"username":"Gordey003","password":"hash"}
 
 Expected Result:
-the user will successfully log in to the account
+Successful registration
 Status code: 200
 
 Actual Result:
 The user has successfully logged into the account
-
-Explanation:
-You can't check it through postman because valid credentials required
 
 ---
 
@@ -59,8 +56,8 @@ Body:
 }
 
 Expected Result:
-User is NOT authenticated
-Status code: 200
+1. User is NOT authenticated
+2. Status code: 200
 
 Actual Result:
 1. Status code: 200
@@ -109,8 +106,9 @@ Body:
 {"username":"Gordey003","password":""}
 
 Expected Result:
-Status code: 200
-User is NOT authenticated
+1. Status code: 200
+2. User is NOT authenticated
+3. Response body: "Wrong password."
 
 Actul Result:
 1. In POSTMAN:
