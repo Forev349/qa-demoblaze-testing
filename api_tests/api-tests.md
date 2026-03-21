@@ -5,7 +5,7 @@ Method:
 POST
 
 URL:
-https://api.demoblaze.com/login
+https://api.demoblaze.com/signup
 
 Body:
 {"username":"Gordey003","password":"hash"}
@@ -17,7 +17,7 @@ Actual Result:
 The user has successfully logged into the account
 
 Explanation:
-You can't check it through postman because the hash is unknown
+You can't check it through postman because valid credentials required
 
 ---
 
@@ -59,6 +59,7 @@ Body:
 
 Expected Result:
 User is NOT authenticated
+Status code: 200
 
 Actual Result:
 1. Status code: 200
@@ -79,11 +80,18 @@ Body:
 {"username":"","password":"123"}
 
 Expected Result:
+Status code: 400
 User is NOT authenticated
 
 Actul Result:
 1. Status code: 500
 2. Response body: "Please fill out Username and Password"
+
+Title:
+Server returns 500 on empty username input
+
+Severity:
+high
 
 ---
 
@@ -100,6 +108,7 @@ Body:
 {"username":"Gordey003","password":""}
 
 Expected Result:
+Status code: 200
 User is NOT authenticated
 
 Actul Result:
