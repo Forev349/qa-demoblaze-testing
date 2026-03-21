@@ -8,7 +8,7 @@ URL:
 https://api.demoblaze.com/login
 
 Body:
-{"username":"testuser","password":"hash"}
+{"username":"testuser","password":"123"}
 
 Expected Result:
 1. User is NOT authenticated
