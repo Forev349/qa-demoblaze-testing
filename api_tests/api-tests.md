@@ -124,7 +124,7 @@ URL:
 https://api.demoblaze.com/login
 
 Body:
-{"username":"","password":""}
+{}
 
 Expected Result:
 1. Status code: 400 Bad Request - validation error
