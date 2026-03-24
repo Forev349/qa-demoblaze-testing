@@ -22,8 +22,8 @@ Website / Сайт: https://www.demoblaze.com
 - Functional Testing (registration, login, cart, order)  
   Функциональное тестирование (регистрация, вход, корзина, заказ)
 
-- Basic API checks via DevTools (Network tab)  
-  Базовая проверка API через DevTools (вкладка Network)
+- API testing via DevTools (Network tab)  
+  Тестирование API с помощью DevTools (вкладка Сеть)
 
 - Test case design  
   Написание тест-кейсов
@@ -46,8 +46,8 @@ Website / Сайт: https://www.demoblaze.com
 - Created test cases for main user flows  
   Созданы тест-кейсы для основных сценариев пользователя
 
-- Simulated positive and negative scenarios  
-  Смоделированы позитивные и негативные сценарии
+- Designed and executed positive and negative test scenarios
+  Разработаны и выполнены положительные и отрицательные тестовые сценарии
 
 - Practiced writing bug reports  
   Практика написания баг-репортов
@@ -59,5 +59,5 @@ Website / Сайт: https://www.demoblaze.com
 
 ## Conclusion / Вывод
 
-This project demonstrates basic QA skills including test case design, functional testing, and bug reporting.  
+This project demonstrates practical QA skills in manual testing, including test case design, API validation, and defect reporting
 Проект демонстрирует базовые навыки QA: написание тест-кейсов, функциональное тестирование и баг-репорты.
