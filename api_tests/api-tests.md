@@ -127,8 +127,8 @@ Body:
 {}
 
 Expected Result:
-1. Status code: 400 Bad Request - validation error
-2. User is NOT authenticated
+1. Request should be validated
+2. User should NOT be authenticated
 3. The server should not break down
 
 Actual Result:
