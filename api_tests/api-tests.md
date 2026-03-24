@@ -110,12 +110,12 @@ Body:
 {"username":"Gordey003","password":""}
 
 Expected Result:
-1. Status code: 200
+1. Status code: 400
 2. User is NOT authenticated
 3. Response body: "Wrong password."
 
 Actul Result:
-1. Status code: 200
+1. Status code: 400
 2. Response body: "Wrong password."
 
 Conclusion: No bag
