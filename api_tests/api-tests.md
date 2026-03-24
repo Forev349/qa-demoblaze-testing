@@ -17,6 +17,8 @@ Expected Result:
 Actual Result:
 The user has successfully logged into the account
 
+Conclusion: No bag
+
 ---
 
 ## API Test 2:
@@ -38,6 +40,8 @@ Expected Result:
 Actul Result:
 1. Status code: 200 OK
 2. Response body: "Wrong password"
+
+Conclusion: No bag
 
 ---
 
@@ -63,6 +67,8 @@ Expected Result:
 Actual Result:
 1. Status code: 200 OK
 2. Response body: "User does not exist."
+
+Conclusion: No bag
 
 ---
 
@@ -109,8 +115,10 @@ Expected Result:
 3. Response body: "Wrong password."
 
 Actul Result:
-2. Status code: 200
-1. Response body: "Wrong password."
+1. Status code: 200
+2. Response body: "Wrong password."
+
+Conclusion: No bag
 
 ---
 
@@ -135,6 +143,8 @@ Actual Result:
 1. Status code: 200
 3. Response body: "Bad parameter, missing username"}
 
+Conclusion: No bag
+
 ---
 
 API Test 7:
@@ -157,3 +167,5 @@ Expected Result:
 Actual result:
 1. Status code: 200
 2. Response body: "User does not exist."
+
+Conclusion: No bag
