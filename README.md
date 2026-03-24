@@ -22,7 +22,7 @@ Website / Сайт: https://www.demoblaze.com
 - Functional Testing (registration, login, cart, order)  
   Функциональное тестирование (регистрация, вход, корзина, заказ)
 
-- API testing via DevTools (Network tab)  
+- API testing using Chrome DevTools (Network tab)
   Тестирование API с помощью DevTools (вкладка Сеть)
 
 - Test case design  
@@ -60,4 +60,4 @@ Website / Сайт: https://www.demoblaze.com
 ## Conclusion / Вывод
 
 This project demonstrates practical QA skills in manual testing, including test case design, API validation, and defect reporting
-Проект демонстрирует базовые навыки QA: написание тест-кейсов, функциональное тестирование и баг-репорты.
+Этот проект демонстрирует практические навыки контроля качества в ручном тестировании, включая разработку тестовых примеров, проверку API и составление отчетов о дефектах
