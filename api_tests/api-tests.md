@@ -132,11 +132,8 @@ Expected Result:
 3. The server should not break down
 
 Actual Result:
-1. Status code: 500 Internal Server Error
-2. Server failed to handle empty request
-
-Conclusion:
-Bug detected
+1. Status code: 200
+3. Response body: "Bad parameter, missing username"}
 
 ---
 
@@ -153,7 +150,7 @@ Body:
 {"username":"' OR 1=1 --'","password":"MTIz"}
 
 Expected Result:
-1. Status code: 400 Bad Request - validation error or 200
+1. Status code: 200
 2. User is NOT authenticated
 3. The server should not break down
 
