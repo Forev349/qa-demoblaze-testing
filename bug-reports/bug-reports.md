@@ -1,6 +1,6 @@
-## BUG-REPORT 3: Registration with empty fields
+## BUG-REPORT 1: Registration with empty fields
 
-## БАГ-РЕПОРТ 3: Регистрация с пустыми полями
+## БАГ-РЕПОРТ 1: Регистрация с пустыми полями
 
 Tiile: 
 Sign up shows incorrect validation message for empty fields
@@ -47,3 +47,6 @@ Severity: high
 Priority: High
 
 Приоритет: Высокий
+
+---
+
