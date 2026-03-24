@@ -87,11 +87,7 @@ Actul Result:
 1. Status code: 500 Internal Server Error
 2. Response body: "Please fill out Username and Password"
 
-Title:
-Server returns 500 on empty username input
-
-Severity:
-high
+Conclusion: Bug detected
 
 ---
 
@@ -113,13 +109,54 @@ Expected Result:
 3. Response body: "Wrong password."
 
 Actul Result:
-1. Response body: "Wrong password."
 2. Status code: 200
+1. Response body: "Wrong password."
 
 ---
 
 API Test 6:
 empty body
 
+Method:
+POST
+
+URL:
+https://api.demoblaze.com/login
+
+Body:
+{"username":"","password":""}
+
+Expected Result:
+1. Status code: 400 Bad Request - validation error
+2. User is NOT authenticated
+3. The server should not break down
+
+Actual Result:
+1. Status code: 500 Internal Server Error
+2. Server failed to handle empty request
+
+Conclusion:
+Bug detected
+
+---
+
 API Test 7:
 SQL injection
+
+Method:
+POST
+
+URL:
+https://api.demoblaze.com/login
+
+Body:
+{"username":"' OR 1=1 --'","password":"MTIz"}
+
+Expected Result:
+1. Status code: 400 Bad Request - validation error or 200
+2. User is NOT authenticated
+3. The server should not break down
+
+Actual result:
+1. Status code: 200
+2. Response body: "User does not exist."
