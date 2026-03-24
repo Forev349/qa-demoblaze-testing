@@ -29,10 +29,10 @@ Steps to reproduce:
 5. Нажать кнопку “Sign up”
 
 Expected result:
-The system display validation messages for required fields (username and password) and prevent submission
+The system displays validation messages for required fields (username and password) and prevents form submission and does not send a request to the server
 
 Ожидаемый результат:
-Система выводит сообщения о проверке заполнения обязательных полей (имя пользователя и пароль) и предотвращает отправку
+Система отображает сообщения о проверке правильности заполнения обязательных полей (имя пользователя и пароль), предотвращает отправку формы и не отправляет запрос на сервер
 
 Actual result:
 System displays a generic error message instead of field-level validation messages
