@@ -25,4 +25,19 @@ Issue:
 Conclusion:
 The system remains stable under load but demonstrates poor performance due to high response time
 
+## Scenario 2: Signup Load Test
+
+Endpoint:
+POST https://api.demoblaze.com/signup
+
+Test Configuration:
+1. Virtual Users: 10
+2. Duration: 20 seconds
+
+Result:
+1. Avg response time: 694 ms
+2. Max response time: 2.63 s
+3. Total requests: 65
+4. Error rate: 0%
+
 
