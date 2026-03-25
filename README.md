@@ -1,8 +1,8 @@
-📄 QA Testing Project / QA Проект по тестированию
+# 📄 QA Testing Project / QA Проект по тестированию
 
 ⸻
 
-📌 Project Overview / Описание проекта
+## 📌 Project Overview / Описание проекта
 
 This project contains manual and API testing of the DemoBlaze website.
 The goal is to practice test case design, API testing, bug reporting, and basic performance testing.
@@ -11,13 +11,13 @@ The goal is to practice test case design, API testing, bug reporting, and basic 
 
 ⸻
 
-🌐 Tested Application / Тестируемое приложение
+## 🌐 Tested Application / Тестируемое приложение
 
 Website: https://www.demoblaze.com
 
 ⸻
 
-🔍 Scope of Testing / Область тестирования
+## 🔍 Scope of Testing / Область тестирования
  • UI Testing (buttons, forms, navigation)
  • Functional Testing (registration, login, cart, order)
  • API Testing (Postman, Chrome DevTools)
@@ -27,7 +27,7 @@ Website: https://www.demoblaze.com
 
 ⸻
 
-🛠 Tools Used / Используемые инструменты
+## 🛠 Tools Used / Используемые инструменты
  • Google Chrome / Yandex Browser
  • Chrome DevTools (Network tab)
  • Postman
@@ -36,7 +36,7 @@ Website: https://www.demoblaze.com
 
 ⸻
 
-📋 What was done / Что было сделано
+## 📋 What was done / Что было сделано
  • Created test cases for main user flows
  • Designed and executed positive and negative test scenarios
  • Tested API endpoints using Postman
@@ -47,7 +47,7 @@ Website: https://www.demoblaze.com
 
 ⸻
 
-🚀 Performance Testing
+## 🚀 Performance Testing
 
 This project includes basic load testing using k6.
  • Tested login API under load
@@ -58,7 +58,7 @@ This project includes basic load testing using k6.
 
 ⸻
 
-📊 Conclusion / Вывод
+## 📊 Conclusion / Вывод
 
 This project demonstrates practical QA skills including:
  • Test case design
