@@ -1,63 +1,69 @@
-# QA Testing Project / QA Проект по тестированию
+📄 QA Testing Project / QA Проект по тестированию
 
-## Project Overview / Описание проекта
-This project contains manual QA testing of the DemoBlaze website.  
-Цель проекта — ручное тестирование сайта DemoBlaze.
+⸻
 
-The goal is to practice creating test documentation and identifying potential issues in a web application.  
-Цель — практика создания тестовой документации и поиск возможных проблем в веб-приложении.
+📌 Project Overview / Описание проекта
 
----
+This project contains manual and API testing of the DemoBlaze website.
+The goal is to practice test case design, API testing, bug reporting, and basic performance testing.
 
-## Tested Application / Тестируемое приложение
-Website / Сайт: https://www.demoblaze.com
+Цель проекта — практика написания тест-кейсов, тестирования API, составления баг-репортов и базового нагрузочного тестирования.
 
----
+⸻
 
-## Scope of Testing / Область тестирования
+🌐 Tested Application / Тестируемое приложение
 
-- UI Testing (buttons, forms, pages)  
-  UI тестирование (кнопки, формы, страницы)
+Website: https://www.demoblaze.com
 
-- Functional Testing (registration, login, cart, order)  
-  Функциональное тестирование (регистрация, вход, корзина, заказ)
+⸻
 
-- API testing using Chrome DevTools (Network tab)
-  Тестирование API с помощью DevTools (вкладка Сеть)
+🔍 Scope of Testing / Область тестирования
+ • UI Testing (buttons, forms, navigation)
+ • Functional Testing (registration, login, cart, order)
+ • API Testing (Postman, Chrome DevTools)
+ • Negative Testing (invalid data, empty fields)
+ • Security Testing (SQL Injection, XSS)
+ • Performance Testing (k6 load testing)
 
-- Test case design  
-  Написание тест-кейсов
+⸻
 
-- Bug reporting practice  
-  Практика написания баг-репортов
+🛠 Tools Used / Используемые инструменты
+ • Google Chrome / Yandex Browser
+ • Chrome DevTools (Network tab)
+ • Postman
+ • k6 (load testing)
+ • GitHub
 
----
+⸻
 
-## Tools Used / Используемые инструменты
+📋 What was done / Что было сделано
+ • Created test cases for main user flows
+ • Designed and executed positive and negative test scenarios
+ • Tested API endpoints using Postman
+ • Analyzed network requests using DevTools
+ • Identified and documented bugs (including server errors and validation issues)
+ • Performed basic load testing using k6
+ • Tested edge cases (empty fields, invalid input, long data)
 
-- Google Chrome / Yandex Browser  
-- Chrome DevTools  
-- GitHub  
+⸻
 
----
+🚀 Performance Testing
 
-## What was done / Что было сделано
+This project includes basic load testing using k6.
+ • Tested login API under load
+ • Measured response time and error rate
+ • Identified performance issue (high response time ~13s)
 
-- Created test cases for main user flows  
-  Созданы тест-кейсы для основных сценариев пользователя
+👉 See details in PERFORMANCE_TESTING.md
 
-- Designed and executed positive and negative test scenarios
-  Разработаны и выполнены положительные и отрицательные тестовые сценарии
+⸻
 
-- Practiced writing bug reports  
-  Практика написания баг-репортов
+📊 Conclusion / Вывод
 
-- Verified application behavior using DevTools  
-  Проверка поведения приложения через DevTools
+This project demonstrates practical QA skills including:
+ • Test case design
+ • API testing and validation
+ • Bug reporting
+ • Basic performance testing
 
----
-
-## Conclusion / Вывод
-
-This project demonstrates practical QA skills in manual testing, including test case design, API validation, and defect reporting
-Этот проект демонстрирует практические навыки контроля качества в ручном тестировании, включая разработку тестовых примеров, проверку API и составление отчетов о дефектах
+Проект демонстрирует практические навыки QA: разработка тест-кейсов, тестирование API, написание баг-репортов и базовое нагрузочное тестирование.
