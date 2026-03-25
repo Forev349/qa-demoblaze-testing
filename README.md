@@ -1,6 +1,6 @@
 # 📄 QA Testing Project / QA Проект по тестированию
 
-⸻
+---
 
 ## 📌 Project Overview / Описание проекта
 
@@ -9,13 +9,13 @@ The goal is to practice test case design, API testing, bug reporting, and basic 
 
 Цель проекта — практика написания тест-кейсов, тестирования API, составления баг-репортов и базового нагрузочного тестирования.
 
-⸻
+---
 
 ## 🌐 Tested Application / Тестируемое приложение
 
 Website: https://www.demoblaze.com
 
-⸻
+---
 
 ## 🔍 Scope of Testing / Область тестирования
  • UI Testing (buttons, forms, navigation)
@@ -25,7 +25,7 @@ Website: https://www.demoblaze.com
  • Security Testing (SQL Injection, XSS)
  • Performance Testing (k6 load testing)
 
-⸻
+---
 
 ## 🛠 Tools Used / Используемые инструменты
  • Google Chrome / Yandex Browser
@@ -34,7 +34,7 @@ Website: https://www.demoblaze.com
  • k6 (load testing)
  • GitHub
 
-⸻
+---
 
 ## 📋 What was done / Что было сделано
  • Created test cases for main user flows
@@ -45,7 +45,7 @@ Website: https://www.demoblaze.com
  • Performed basic load testing using k6
  • Tested edge cases (empty fields, invalid input, long data)
 
-⸻
+---
 
 ## 🚀 Performance Testing
 
@@ -56,7 +56,7 @@ This project includes basic load testing using k6.
 
 👉 See details in PERFORMANCE_TESTING.md
 
-⸻
+---
 
 ## 📊 Conclusion / Вывод
 
