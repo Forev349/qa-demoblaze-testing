@@ -35,9 +35,16 @@ Test Configuration:
 2. Duration: 20 seconds
 
 Result:
-1. Avg response time: 694 ms
+1. Avg response time: 0.69 s
 2. Max response time: 2.63 s
 3. Total requests: 65
 4. Error rate: 0%
+
+Observations:
+1. All requests were seccesfully processed (status 200)
+2. No server errors defected
+3. Response time is mostly stable
+
+Risks:
 
 
