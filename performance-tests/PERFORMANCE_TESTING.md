@@ -3,13 +3,13 @@
 Endpoint:
 POST https://api.demoblaze.com/login
 
-⸻
+---
 
 Test Configuration / Настройки теста:
 1. Virtual Users (VUs) / Виртуальные пользователи: 10
 2. Duration / Длительность: 10 seconds
 
-⸻
+---
 
 Results / Результаты:
 1. Avg response time / Среднее время отклика: 13.83 s
@@ -17,7 +17,7 @@ Results / Результаты:
 3. Total requests / Всего запросов: 10
 4. Error rate / Процент ошибок: 0%
 
-⸻
+---
 
 Observations / Наблюдения:
 1. All requests were successfully processed (status 200)
@@ -27,7 +27,7 @@ Observations / Наблюдения:
 3. Response time is significantly higher than expected
 Время отклика значительно выше ожидаемого
 
-⸻
+---
 
 Issues / Проблемы:
 1. High response time under load (>13 seconds)
@@ -35,27 +35,27 @@ Issues / Проблемы:
 2. May negatively impact user experience
 Может негативно повлиять на пользовательский опыт
 
-⸻
+---
 
 Conclusion / Вывод:
 
 The system remains stable under load but demonstrates poor performance due to high response time.
 Система остаётся стабильной при нагрузке, но показывает низкую производительность из-за долгого времени отклика.
 
-⸻
+---
 
 ## Scenario 2: Signup Load Test / Тест нагрузки на регистрацию
 
 Endpoint:
 POST https://api.demoblaze.com/signup
 
-⸻
+---
 
 Test Configuration / Настройки теста:
 1. Virtual Users (VUs) / Виртуальные пользователи: 10
 2. Duration / Длительность: 20 seconds
 
-⸻
+---
 
 Results / Результаты:
 1. Avg response time / Среднее время отклика: 0.69 s
@@ -63,7 +63,7 @@ Results / Результаты:
 3. Total requests / Всего запросов: 65
 4. Error rate / Процент ошибок: 0%
 
-⸻
+---
 
 Observations / Наблюдения:
 1. All requests were successfully processed (status 200)
@@ -73,7 +73,7 @@ Observations / Наблюдения:
 3. Response time is mostly stable
 Время отклика в основном стабильное
 
-⸻
+---
 
 Risks / Риски:
 1. Occasional response time spikes (up to 2.63 s)
@@ -81,7 +81,7 @@ Risks / Риски:
 2. Performance may degrade under higher load
 Производительность может ухудшиться при большей нагрузке
 
-⸻
+---
 
 Conclusion / Вывод:
 
