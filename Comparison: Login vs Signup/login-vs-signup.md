@@ -1,8 +1,8 @@
-📊 Performance Comparison / Сравнение производительности
+Performance Comparison / Сравнение производительности
 
 ---
 
-📌 Key Metrics / Основные метрики:
+Key Metrics / Основные метрики:
 
 | Metric | Login | Signup |
 |--------|------|--------|
@@ -13,7 +13,7 @@
 
 ---
 
-🧠 Analysis / Анализ:
+Analysis / Анализ:
 
 EN:
 
