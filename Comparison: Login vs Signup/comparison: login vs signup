@@ -3,3 +3,29 @@
 ⸻
 
 📌 Key Metrics / Основные метрики:
+
+---
+
+🧠 Analysis / Анализ:
+
+EN:
+
+Login endpoint shows significantly worse performance compared to signup.
+While signup handles requests efficiently, login response time is extremely high (~13s), which indicates a potential backend bottleneck.
+
+RU:
+
+Эндпоинт входа показывает значительно худшую производительность по сравнению с регистрацией.
+Регистрация работает быстро, а вход занимает ~13 секунд, что может указывать на узкое место на стороне сервера.
+
+---
+
+❗ Key Finding / Главный вывод
+
+EN:
+
+Different endpoints demonstrate inconsistent performance under similar load conditions.
+
+RU:
+
+Разные эндпоинты показывают нестабильную производительность при одинаковой нагрузке.
