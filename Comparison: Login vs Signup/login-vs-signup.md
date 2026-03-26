@@ -13,7 +13,7 @@ Key Metrics / Основные метрики:
 
 ---
 
-Analysis / Анализ:
+## Analysis / Анализ:
 
 EN:
 
@@ -27,7 +27,7 @@ RU:
 
 ---
 
-❗ Key Finding / Главный вывод
+## Key Finding / Главный вывод
 
 EN:
 
@@ -39,7 +39,7 @@ RU:
 
 ---
 
-### 🚀 Recommendations / Рекомендации
+## Recommendations / Рекомендации
 
 **EN:**
 
