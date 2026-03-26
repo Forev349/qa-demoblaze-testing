@@ -3,6 +3,14 @@
 ⸻
 
 📌 Key Metrics / Основные метрики:
+### 📊 Performance Comparison / Сравнение производительности
+
+| Metric | Login | Signup |
+|--------|------|--------|
+| Avg response time | 13.83 s | 0.69 s |
+| Max response time | 13.92 s | 2.63 s |
+| Error rate | 0% | 0% |
+| Total requests | 10 | 65 |
 
 ---
 
