@@ -36,3 +36,19 @@ Different endpoints demonstrate inconsistent performance under similar load cond
 RU:
 
 Разные эндпоинты показывают нестабильную производительность при одинаковой нагрузке.
+
+---
+
+### 🚀 Recommendations / Рекомендации
+
+**EN:**
+
+- Investigate backend logic of the login endpoint  
+- Optimize authentication process to reduce response time  
+- Analyze database queries and server load handling  
+
+**RU:**
+
+- Проверить логику backend для login  
+- Оптимизировать процесс авторизации для уменьшения времени отклика  
+- Проанализировать запросы к базе данных и обработку нагрузки  
