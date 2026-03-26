@@ -1,6 +1,6 @@
 📊 Performance Comparison / Сравнение производительности
 
-⸻
+---
 
 📌 Key Metrics / Основные метрики:
 
