@@ -1,21 +1,37 @@
-## Scenario 1: Login Load Test / Тест нагрузки на вход
+## Scenario 1: Login Load Test 
+
+## Scenario 1: Тест нагрузки на вход
 
 Endpoint:
 POST https://api.demoblaze.com/login
 
 ---
 
-Test Configuration / Настройки теста:
-1. Virtual Users (VUs) / Виртуальные пользователи: 10
-2. Duration / Длительность: 10 seconds
+Test Configuration
+
+Настройки теста:
+
+1. Virtual Users (VUs): 10
+2. Duration: 10 seconds
+
+1. Виртуальные пользователи: 10
+2. Длительность: 10 seconds
 
 ---
 
-Results / Результаты:
-1. Avg response time / Среднее время отклика: 13.83 s
-2. Max response time / Максимальное время отклика: 13.92 s
-3. Total requests / Всего запросов: 10
-4. Error rate / Процент ошибок: 0%
+Results:
+
+Результаты:
+
+1. Avg response time: 13.83 s
+2. Max response time: 13.92 s
+3. Total requests: 10
+4. Error rate: 0%
+
+1. Среднее время отклика: 13.83 s
+2. Максимальное время отклика: 13.92 s
+3. Всего запросов: 10
+4. Процент ошибок: 0%
 
 ---
 
