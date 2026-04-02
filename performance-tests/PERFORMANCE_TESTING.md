@@ -7,7 +7,7 @@ POST https://api.demoblaze.com/login
 
 ---
 
-Test Configuration
+Test Configuration:
 
 Настройки теста:
 
@@ -35,28 +35,35 @@ Results:
 
 ---
 
-Observations / Наблюдения:
+Observations:
+
+Наблюдения:
+
 1. All requests were successfully processed (status 200)
-Все запросы успешно обработаны (код 200)
 2. No server errors detected
-Ошибок на стороне сервера не обнаружено
 3. Response time is significantly higher than expected
-Время отклика значительно выше ожидаемого
+
+1. Все запросы успешно обработаны (код 200)
+2. Ошибок на стороне сервера не обнаружено
+3. Время отклика значительно выше ожидаемого
 
 ---
 
-Issues / Проблемы:
+Issues:
+
+Проблемы:
+
 1. High response time under load (>13 seconds)
-Высокое время отклика при нагрузке (>13 секунд)
 2. May negatively impact user experience
-Может негативно повлиять на пользовательский опыт
+
+1. Высокое время отклика при нагрузке (>13 секунд)
+2. Может негативно повлиять на пользовательский опыт
 
 ---
 
-Conclusion / Вывод:
+Conclusion: The system remains stable under load but demonstrates poor performance due to high response time.
 
-The system remains stable under load but demonstrates poor performance due to high response time.
-Система остаётся стабильной при нагрузке, но показывает низкую производительность из-за долгого времени отклика.
+Вывод: Система остаётся стабильной при нагрузке, но показывает низкую производительность из-за долгого времени отклика.
 
 ---
 
