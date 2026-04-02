@@ -66,24 +66,24 @@ Results / Результаты:
 ---
 
 Observations / Наблюдения:
-1. All requests were successfully processed (status 200)
-Все запросы успешно обработаны (код 200)
-2. No server errors detected
+1. All requests were successfully processed (status 200) /
+Все запросы успешно обработаны (код 200) 
+2. No server errors detected /
 Ошибок на стороне сервера не обнаружено
-3. Response time is mostly stable
+3. Response time is mostly stable /
 Время отклика в основном стабильное
 
 ---
 
 Risks / Риски:
-1. Occasional response time spikes (up to 2.63 s)
+1. Occasional response time spikes (up to 2.63 s) /
 Периодические скачки времени отклика (до 2.63 сек)
-2. Performance may degrade under higher load
+2. Performance may degrade under higher load /
 Производительность может ухудшиться при большей нагрузке
 
 ---
 
 Conclusion / Вывод:
 
-The signup endpoint performs well under current load but shows potential risks due to response time spikes.
+The signup endpoint performs well under current load but shows potential risks due to response time spikes. /
 Эндпоинт регистрации работает стабильно при текущей нагрузке, но есть риски из-за скачков времени отклика.
